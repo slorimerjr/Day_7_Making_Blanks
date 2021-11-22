@@ -8,9 +8,9 @@ chosen_word = random.choice(word_list)
 print(f'Pssst, the solution is {chosen_word}.')
 
 #TODO-1: - Create an empty List called display.
-display = []
+
 #For each letter in the chosen_word, add a "_" to 'display'.
-word_len = len(chosen_word)
+display = []
 for letter in chosen_word:
     display.append("_")
 #So if the chosen_word was "apple", display should be ["_", "_", "_", "_", "_"] with 5 "_" representing each letter to guess.
